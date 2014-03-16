@@ -6,7 +6,7 @@ import tagger
 
 def main():
 	parser = argparse.ArgumentParser(description=
-	"""Convert ID3 tags that have messed up "encoding""")
+	'''Convert ID3 tags that have messed up "encoding"''')
 	parser.add_argument('path')
 	parser.add_argument('--from-encoding',
 		default='euc-kr')
