@@ -1,3 +1,9 @@
+"""
+Fixes wrongly encoded mp3 file id3 tags.
+The id3 tags are converted to utf-8
+"""
+
+
 import argparse
 import os
 import sys
